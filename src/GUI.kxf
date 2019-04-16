@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="Form1">
+	<properties>
+		<property name="Left" vt="Int16">314</property>
+		<property name="Top" vt="Int8">105</property>
+		<property name="Width" vt="Int16">707</property>
+		<property name="Height" vt="Int16">491</property>
+		<property name="Caption" vt="String">Form1</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TAEdit" name="Edit1">
+			<properties>
+				<property name="Left" vt="Int8">6</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">357</property>
+				<property name="Height" vt="Int16">373</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-12</property>
+				<property name="Font.Name" vt="String">Lucida Console</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="CtrlStyle" vt="Int32">1344477252</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAEdit" name="Edit2">
+			<properties>
+				<property name="Left" vt="Int16">370</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">315</property>
+				<property name="Height" vt="Int16">283</property>
+				<property name="Lines.Strings" vt="List">
+					<list>
+						<li vt="String">Informations:</li>
+						<li vt="String">   Programmed by hXR16F</li>
+						<li vt="String">   Debug mode: True | Missing files: 0</li>
+						<li vt="String"/>
+						<li vt="String">Debug informations:</li>
+						<li vt="String">   DATA - AI found an answer, you can ask another question.</li>
+						<li vt="String">   TEMP - You must answer AI's 'question' based on only 1 line.</li>
+						<li vt="String">   NULL - AI can't find an answer, you can ask another question.</li>
+						<li vt="String">   FAIL - Error occured.</li>
+						<li vt="String"/>
+						<li vt="String">Modules (usage: '=module_name'):</li>
+						<li vt="String">   CALC - Calculation program, ex: '=2+2'.</li>
+						<li vt="String">   TIME - Shows date and time.</li>
+						<li vt="String">   SORT - Sorts database.</li>
+						<li vt="String">   CLNN - Cleans temporary sentences.</li>
+						<li vt="String">   PING - Pings multiple sites to check internet connection.</li>
+						<li vt="String">   CLSC - Cleans screen.</li>
+						<li vt="String">   RSET - Restarts AI without closing the window.</li>
+						<li vt="String">   WINV - Gets Windows version.</li>
+						<li vt="String">   FCHK - File checker.</li>
+						<li vt="String">   EXIT - Exits the program.</li>
+					</list>
+				</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="CtrlStyle" vt="Int32">1342380036</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAInput" name="Input1">
+			<properties>
+				<property name="Left" vt="Int8">6</property>
+				<property name="Top" vt="Int16">388</property>
+				<property name="Width" vt="Int16">357</property>
+				<property name="Height" vt="Int8">21</property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="CtrlStyle" vt="Int32">1342374016</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button1">
+			<properties>
+				<property name="Left" vt="Int16">182</property>
+				<property name="Top" vt="Int16">416</property>
+				<property name="Width" vt="Int16">183</property>
+				<property name="Height" vt="Int8">29</property>
+				<property name="Caption" vt="String">SEND</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-13</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label1">
+			<properties>
+				<property name="Left" vt="Int16">370</property>
+				<property name="Top" vt="Int16">298</property>
+				<property name="Width" vt="Int16">315</property>
+				<property name="Height" vt="Int16">147</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">Artificial Intelligence</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-32</property>
+				<property name="Font.Name" vt="String">Gabriola</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1350697729</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+	</components>
+</object>
