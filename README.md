@@ -35,5 +35,4 @@ Don't see your native language? You can create your own database. Just look at e
 ![screenshot](https://i.imgur.com/SdKIMHZ.png)
 
 # Donate
-If you support my work or like my projects, you can donate me some money. Thank you 💙\
-BTC: `1GZRqMvfAhsHbWAJUKf9EruBPNKqwGAPFU`
+If you support my work or like my projects, [you can donate me some money](https://github.com/hXR16F/donate/blob/master/README.md). Thank you 💙
